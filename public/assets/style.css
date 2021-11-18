@@ -1,0 +1,59 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f1f5f8;
+}
+
+#wrapper{
+    padding: 100px 0px;
+}
+
+#wrapper h4 {
+    font-size: 40px;
+}
+
+#wrapper .underline{
+    width: 100px;
+    height: 3px;
+    margin: 0px auto;
+    background-color: teal;
+}
+
+#wrapper .tour-item{
+    max-width: 500px;
+    margin: 0px auto;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+#wrapper .tour-item-image img {
+    width: 100%;
+    height: 333px;
+    object-fit: cover;
+}
+#wrapper .tour-item-detail{
+    padding: 15px;
+}
+
+#wrapper .tour-item-detail .title{
+    font-weight: bold;
+}
+
+#wrapper .tour-item-detail .price {
+    font-weight: bold;
+    color: #49a6e9;
+    padding: 3px 10px;
+    border-radius: 5px;
+    background-color: #dde4e9;
+}
+
+#wrapper .tour-item-detail .tour-item-des{
+    font-weight: lighter;
+    font-size: 14px;
+}
+
+#wrapper .tour-item-detail .tour-item-des .button-read-more{
+    background: none;
+    border: none;
+    outline: none;
+    color: #49a6e9;
+} 
+
+
